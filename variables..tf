@@ -12,3 +12,8 @@ variable "profile" {
   type        = string
   description = "Authentication profile"
 }
+
+variable "region" {
+  type        = string
+  description = "aws region"
+}

@@ -5,3 +5,4 @@ tags = {
 profile = "value"
 
 bucket_name = "value"
+region      = "value"
