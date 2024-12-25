@@ -1,14 +1,14 @@
 variable "bucket_name" {
-  type = string
+  type        = string
   description = "Bucket name to store the build file"
 }
 
 variable "tags" {
-  type = map(string)
+  type        = map(string)
   description = "Tag value for identification and billing"
 }
 
 variable "profile" {
-  type = string
+  type        = string
   description = "Authentication profile"
 }
